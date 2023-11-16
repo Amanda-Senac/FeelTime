@@ -1,0 +1,120 @@
+.lateral-cor {
+    background-color: #4C0A76 !important;
+}
+
+.flex-grow-1{
+    background-color: #2D0554;
+}
+
+
+.mp3{
+    background-color: #7100A7;
+    
+}
+
+
+
+.mp3-p{
+    background-color: #7100A7; width: 90vw; height: 250px;
+
+    
+}
+
+.mp3-d{
+    background-color: #7100A7; 
+
+}
+
+.sinais{
+    height: 80px;
+}
+
+.sinais-d{
+    height: 150px;
+}
+.cor{
+
+    background-color: #a934df;
+}
+
+.capas-d{
+    width: 310px;
+}
+
+.capas{
+    width: 180px;   
+
+ }
+
+.p-3{
+    padding: 3rem !important;
+}
+
+.btn-secondary{
+    background-color: #a934df !important;
+}
+
+.p{
+    width: 12px;
+}
+.tamanho{
+    width: 30px !important;
+}
+
+.mais{
+    width: 70px;
+}
+
+::-webkit-scrollbar {
+    background: #7100A7;
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    /* Botão de arrastar da barra de rolagem */
+    border: 3px solid #7100A7;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+body::-webkit-scrollbar-button:single-button {
+    /* Botões de subir e descer a barra de rolagem */
+    display: block;
+    background-size: 10px;
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button {
+    /* Botões de subir a barra de rolagem */
+    height: 12px;
+    width: 16px;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    /* Botões de subir a barra de rolagem */
+    background-position: center 5px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(97, 54, 89)'><polygon points='50,00 0,50 100,50'/></svg>");
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+     /* Botões descer a barra de rolagem */
+    background-position: center 2px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(97, 54, 89)'><polygon points='0,0 100,0 50,50'/></svg>");
+}
+
+::-webkit-scrollbar-button:single-button:horizontal:decrement {
+    /* Botões de subir a barra de rolagem */
+    background-position: center;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(97, 54, 89)'><polygon points='100,0 50,50 100,100'/></svg>");
+}
+
+::-webkit-scrollbar-button:single-button:horizontal:increment {
+    /* Botões descer a barra de rolagem */
+    background-position: center;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(97, 54, 89)'><polygon points='50,50 0,100 0,0'/></svg>");
+}
+
+.degrade {
+    background-image: linear-gradient(to top,  #2D0554 , #7100A7  ) !important;
+}
